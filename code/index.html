@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HematoVision - Blood Cell Classification</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">HematoVision</div>
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Signup</a></li>
+    <li><a href="#">Login</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+  <h1 class="project-title">
+    Advanced Blood Cell Classification Using Transfer Learning
+  </h1>
+
+  <div class="card">
+
+    <input type="file" id="imageInput" accept="image/*">
+    
+    <button onclick="predictImage()">Predict</button>
+
+    <div id="preview"></div>
+
+    <div id="result"></div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

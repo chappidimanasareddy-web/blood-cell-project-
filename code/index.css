@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  min-height: 100vh;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  transition: 0.3s;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  background: #f97316;
+  transform: translateY(-2px);
+}
+
+/* MAIN */
+.container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.project-title {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 14px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* INPUT */
+input[type="file"] {
+  margin: 15px 0;
+}
+
+/* BUTTON */
+button {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* IMAGE PREVIEW */
+#preview img {
+  margin-top: 15px;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+/* RESULT */
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #16a34a;
+}
